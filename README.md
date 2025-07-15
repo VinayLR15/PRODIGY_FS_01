@@ -110,6 +110,10 @@ http://localhost:5000/signup.html
 This project is licensed under the **MIT License**.
 
 ---
+## 🙌 Acknowledgements
+
+This project was built as part of the **Prodigy InfoTech Internship** under the task titled **"Secure User Authentication"**.  
+Special thanks to the **Prodigy InfoTech** team for providing the opportunity to demonstrate and enhance full-stack development skills.
 
 ## 🙋‍♂️ Author
 
