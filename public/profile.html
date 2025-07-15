@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile</title>
+</head>
+<body>
+  <h1>Welcome to your Profile Page!</h1>
+  <p>You are successfully logged in.</p>
+ <button id="logout-btn" class="logout-btn">Logout</button>
+
+<style>
+  .logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 16px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .logout-btn:hover {
+    background-color: #e60000;
+  }
+</style>
+
+ <script>
+  // Protect page if not logged in
+  const token = localStorage.getItem('token');
+  if (!token) {
+    window.location.href = '/login.html';
+  }
+
+  // Logout handler
+  document.getElementById('logout-btn').addEventListener('click', function () {
+    localStorage.removeItem('token');
+    window.location.href = '/login.html';
+  });
+</script>
+
+</body>
+</html>
