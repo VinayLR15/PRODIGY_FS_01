@@ -1,9 +1,17 @@
 
 # 🔐 Secure User Authentication System – PRODIGY_FS_01
 
-A full-stack secure user authentication system built using **Node.js**, **Express**, **MongoDB**, and **vanilla HTML/CSS/JavaScript**. Features include **user registration**, **login**, **JWT-based authentication**, and **logout** with protected profile access.
+This project is a full-stack secure user authentication system built using **Node.js**, **Express**, **MongoDB**, and vanilla **HTML/CSS/JS**. It supports:
 
-<img width="1914" height="968" alt="image" src="https://github.com/user-attachments/assets/27a6cfce-f609-498c-8d08-b0e888fa2499" />      <img width="1901" height="962" alt="image" src="https://github.com/user-attachments/assets/725ebf52-5065-42f6-869f-94681797192a" />
+- 🔐 User Registration (Signup)
+- 🔑 User Login with password verification
+- 📄 Profile page access with authentication check
+- 🚪 Logout functionality with token invalidation
+
+---
+
+
+<img width="600px" height="968" alt="image" src="https://github.com/user-attachments/assets/27a6cfce-f609-498c-8d08-b0e888fa2499" />      <img width="600px" height="962" alt="image" src="https://github.com/user-attachments/assets/725ebf52-5065-42f6-869f-94681797192a" />
              
 <img width="1917" height="916" alt="image" src="https://github.com/user-attachments/assets/efd4fd24-74a4-4065-b68a-812809d83c11" />
 
@@ -96,22 +104,6 @@ http://localhost:5000/signup.html
 
 ---
 
-## 📸 Screenshot
-
-> ![Folder Structure](./your-screenshot-link.png)
-
----
-
-## 📌 Add to Resume
-
-**Project: Secure User Authentication System**  
-Built a secure full-stack user authentication system with role-based page access.  
-- Technologies: Node.js, Express, MongoDB, HTML/CSS/JavaScript  
-- Features: JWT authentication, password hashing, protected routes, and session handling  
-- Version controlled using Git and hosted on GitHub  
-🔗 [GitHub Repository](https://github.com/VinayLR15/PRODIGY_FS_01)
-
----
 
 ## 📄 License
 
